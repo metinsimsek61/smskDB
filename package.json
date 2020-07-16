@@ -1,0 +1,35 @@
+{
+  "author": "mtnsmsk",
+  "bugs": {
+    "url": "https://github.com/metinsimsek61/smskDB/issues"
+  },
+  "dependencies": {
+    "fs": "0.0.1-security"
+  },
+  "deprecated": false,
+  "description": "smskDB is a very easy to use and easily editable database module that allows you to create unlimited amount of unique database files and database childs!",
+  "homepage": "https://github.com/metinsimsek61/smskDB",
+  "keywords": [
+    "db",
+    "database",
+    "file",
+    "sync",
+    "save",
+    "smskDB",
+    "quick",
+    "quick.db",
+    "json",
+    "fast"
+  ],
+  "license": "MIT",
+  "main": "smskDB.js",
+  "name": "smskdb",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/metinsimsek61/smskDB.git"
+  },
+  "scripts": {
+    "test": "node example.js"
+  },
+  "version": "1.0.0"
+}
