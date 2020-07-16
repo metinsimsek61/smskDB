@@ -14,17 +14,17 @@ Usage
 
 ```js
 /* smskDB Files */
-const { Database } = require("bookman");
+const { Database } = require("smskDB");
 /* Creating New Database */
 const db = new Database("path/to/file");
 
 /* Setting a value in the database */
-db.set("just.a.long.data.name", "Bookman is cool!"); // => "Bookman is cool!"
+db.set("just.a.long.data.name", "smskDB is cool!"); // => "smskDB is cool!"
 db.set("just.a.long.array", []) // => []
 db.set("just.a.long.number", 1) // => 1
 
 /* Getting a value in the database */
-db.get("just.a.long.data"); // => { name: "Bookman is cool!" }
+db.get("just.a.long.data"); // => { name: "smskDB is cool!" }
 db.fetch("just.a.long.number"); // => 1
 
 /* Check if data created */
