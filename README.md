@@ -5,7 +5,7 @@ smskDB: An Easy-To-Use Database
 <p><b>smskDB</b> also saves your data in a json file so you can access and edit simple files at any time.</p>
 -------
 
-<b>[NPM Page](https://www.npmjs.com/package/smskDB) [GITHUB Page](https://github.com/metinsimsek61/smskDB)</b>
+<b>[NPM Page](https://www.npmjs.com/package/smskdb) [GITHUB Page](https://github.com/metinsimsek61/smskDB)</b>
 -------
 
 Usage
@@ -14,17 +14,17 @@ Usage
 
 ```js
 /* smskDB Files */
-const { Database } = require("bookman");
+const { Database } = require("smskDB");
 /* Creating New Database */
 const db = new Database("path/to/file");
 
 /* Setting a value in the database */
-db.set("just.a.long.data.name", "Bookman is cool!"); // => "Bookman is cool!"
+db.set("just.a.long.data.name", "smskDB is cool!"); // => "smskDB is cool!"
 db.set("just.a.long.array", []) // => []
 db.set("just.a.long.number", 1) // => 1
 
 /* Getting a value in the database */
-db.get("just.a.long.data"); // => { name: "Bookman is cool!" }
+db.get("just.a.long.data"); // => { name: "smskDB is cool!" }
 db.fetch("just.a.long.number"); // => 1
 
 /* Check if data created */
@@ -64,7 +64,7 @@ db.delete("just.a.long"); // => { just: { a: { long: [Object] } } } has been del
 
 <p>It looks so scary right :D Don't worry you dont have to know all of these xd</p>
 
-[Contact Me For More Help](mail-to://mtnsmsk@outlook.com.tr)
+[Contact Me For More Help](mailto:mtnsmsk@outlook.com.tr?subject=smskDB)
 -------------------
 
 \ ゜o゜)ノ
