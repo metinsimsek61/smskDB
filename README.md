@@ -63,8 +63,6 @@ db.delete("just.a.long"); // => { just: { a: { long: [Object] } } } has been del
 ```
 
 <p>It looks so scary right :D Don't worry you dont have to know all of these xd</p>
-
-[Contact Me For More Help](mailto:mtnsmsk@outlook.com.tr?subject=smskDB)
 -------------------
 
 \ ゜o゜)ノ
